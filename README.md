@@ -4,3 +4,4 @@ Web Application to manage stock, purchases, compute the bonus for the sales peop
 
 - The other part of the code will be published soon!
 
+- The code is pure HTML, CSS, JavaScript and PHP. No framework used!
