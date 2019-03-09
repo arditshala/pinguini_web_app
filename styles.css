@@ -1,0 +1,379 @@
+/*html *
+
+{
+
+   font-size: 1.09em !important;
+
+   color: rgb(211, 205, 205) !important;
+
+   font-family: Arial !important;
+
+}*/
+
+p {
+  color: #1a1a1a;
+}
+
+/* The sidebar menu */
+
+.sidenav {
+
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; 
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(36, 36, 32); /* Black */
+    opacity: 0.8;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+.hidden {
+  display: none;
+} 
+
+/* The navigation menu links */
+
+.sidenav a {
+
+    padding: 6px 8px 6px 16px;
+
+    text-decoration: none;
+
+   /*font-size: 22px;*/
+
+    font-size: 1.3em !important;
+
+    color: rgb(211, 205, 205) !important;
+
+    font-family: Arial !important;
+
+    /*color: #d1ccc498;*/
+
+    display: block;
+
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+
+    color: #f1f1f1;
+
+}
+
+
+
+/* Style page content */
+
+.main {
+
+    margin-left: 160px; /* Same as the width of the sidebar */
+
+    padding: 0px 10px;
+
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+
+    .sidenav {padding-top: 15px;}
+
+    .sidenav a {font-size: 18px;}
+
+}
+
+
+
+#logo {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
+img {
+
+    vertical-align: center;
+
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.login-page {
+
+  width: 360px;
+
+  padding: 8% 0 0;
+
+  margin: auto;
+
+}
+
+.form {
+
+  position: relative;
+
+  z-index: 1;
+
+  background: #FFFFFF;
+
+  max-width: 360px;
+
+  margin: 0 auto 100px;
+
+  padding: 45px;
+
+  text-align: center;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.form input {
+
+  font-family: "Roboto", sans-serif;
+
+  outline: 0;
+
+  background: #f2f2f2;
+
+  width: 100%;
+
+  border: 0;
+
+  margin: 0 0 15px;
+
+  padding: 15px;
+
+  box-sizing: border-box;
+
+  font-size: 14px;
+
+}
+
+.form button {
+
+  font-family: "Roboto", sans-serif;
+
+  text-transform: uppercase;
+
+  outline: 0;
+
+  background: #EE7624;
+
+  width: 100%;
+
+  border: 0;
+
+  padding: 15px;
+
+  color: #FFFFFF;
+
+  font-size: 14px;
+
+  -webkit-transition: all 0.3 ease;
+
+  transition: all 0.3 ease;
+
+  cursor: pointer;
+
+}
+
+.form button:hover,.form button:active,.form button:focus {
+
+  background: rgb(189, 179, 165);
+
+}
+
+.form .message {
+
+  margin: 15px 0 0;
+
+  color: #b3b3b3;
+
+  font-size: 12px;
+
+}
+
+.form .message a {
+
+  color: #EE7624;
+
+  text-decoration: none;
+
+}
+
+.form .register-form {
+
+  display: none;
+
+}
+
+.container {
+
+  position: relative;
+
+  z-index: 1;
+
+  max-width: 300px;
+
+  margin: 0 auto;
+
+}
+
+.container:before, .container:after {
+
+  content: "";
+
+  display: block;
+
+  clear: both;
+
+}
+
+.container .info {
+
+  margin: 50px auto;
+
+  text-align: center;
+
+}
+
+.container .info h1 {
+
+  margin: 0 0 15px;
+
+  padding: 0;
+
+  font-size: 36px;
+
+  font-weight: 300;
+
+  color: #1a1a1a;
+
+}
+
+.container .info span {
+
+  color: #4d4d4d;
+
+  font-size: 12px;
+
+}
+
+.container .info span a {
+
+  color: #000000;
+
+  text-decoration: none;
+
+}
+
+.container .info span .fa {
+
+  color: #EF3B3A;
+
+}
+
+body {
+  background: #aac999; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #acb4a8, rgb(170, 179, 165));
+  background: -moz-linear-gradient(right, #aebea5, rgb(152, 163, 146));
+  background: -o-linear-gradient(right, #77836f, rgb(118, 122, 115));
+  background: linear-gradient(to left, #5b6356, rgb(68, 75, 65));
+  font-family: "Roboto", sans-serif;
+  color: rgb(211, 205, 205) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.form-style-9{
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #EE7624;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 49%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	float:left;
+}
+.form-style-9 ul li input.align-right{
+	float:right;
+}
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #EE7624;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #EE7624;
+	box-shadow: inset 0px 1px 0px 0px #EE7624;
+	background-color: #EE7624;
+	border: 1px solid #EE7624;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+#element1 {display:inline-block;}
+#element2 {display:inline-block}
